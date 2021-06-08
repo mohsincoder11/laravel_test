@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cera Pro';
+}
+
+.text-muted {
+    color: #898989 !important;
+}
+
+.text-orange {
+    color: #ef7f1a;
+}
+
+
+/* ========================================== */
+
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 0px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+#navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+#navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* #navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+} */
+
+@media screen and (max-width: 580px) {
+    #navbar {
+        padding: 20px 10px !important;
+    }
+    #navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+#section1 {
+    padding-top: 110px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+
+/* ========================================== */
+
+.elevnted-corner {
+    background-image: url('../images/elevated-corner.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 100px 15px;
+}
+
+
+/* ========================================== */
+
+.Kitchenmate-righcorner {
+    background-image: url('../images/kitchenmate/right-corner.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.Kitchenmate-leftcorner {
+    background-image: url('../images/kitchenmate/left-corner.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.Kitchenmate-info {
+    padding: 100px 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .Kitchenmate-info img {
+        max-width: 300px;
+    }
+}
+
+
+/* ========================================== */
+
+.kitchenlife-section {
+    padding: 240px 0px 80px;
+    margin-top: -12%;
+}
+
+.kitchenlife-rightcorner {
+    background-image: url('../images/kitchen-life/right-corner.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.kitchenlife-leftcorner {
+    background-image: url('../images/kitchen-life/left-top.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.kitchen-left-top {
+    position: absolute;
+    margin-top: -18%;
+    margin-left: 0%;
+}
+
+
+/* ============================================================ */
+
+.erognomic-kitchen-section {
+    padding: 80px 0px;
+}
+
+.ek-leftcorner {
+    background-image: url('../images/erognomic-kitchen/bottom-left.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.ek-rightcorner {
+    background-image: url('../images/erognomic-kitchen/right-top.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.erognomic-kitchen {
+    margin-top: -24%;
+    margin-left: 11%;
+}
+
+.erognomic-info {
+    margin-top: 40px;
+}
+
+.kitchen-life {
+    padding: 20px 0px;
+    text-align: center;
+    color: #898989;
+}
+
+.kitchen-life h4 {
+    font-weight: 400;
+}
+
+.kitchen-life img {
+    padding-bottom: 10px;
+}
+
+.section-partner {
+    background-color: #cacaca;
+    padding: 60px 0px;
+}
+
+
+/* ====== built-section ========================================== */
+
+.built-section {
+    padding: 100px 0px;
+}
+
+.built-rightcorner {
+    background-image: url('../images/build-img/right-corner.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.built-leftcorner {
+    background-image: url('../images/build-img/left-corner.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+
+/* === work section ============================================= */
+
+.work-section {
+    padding: 120px 0px;
+}
+
+.work-rightcorner {
+    background-image: url('../images/we-work/right-corner.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+
+/* ============================================================ */
+
+.contact-section {
+    padding: 120px 0px 80px;
+}
+
+.contactbox {
+    border: 2px solid #33b0c4;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.contactbox .form-control {
+    border: 0px solid #ced4da;
+    border-bottom: 2px solid #33b0c4;
+    border-radius: 0px;
+    background-color: #ecf8fa;
+}
+
+
+/* @media screen and (max-width: 767px) {
+    .erognomic-info {
+        margin-top: 0px;
+    }
+} */
